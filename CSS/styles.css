@@ -1,0 +1,85 @@
+.middle{
+
+}
+
+.square-big {
+    background-color: hsl(212, 45%, 89%);
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    left: 90px;
+    top: 100px;
+    box-shadow: 1px 1px 5px grey;
+    z-index:2;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: 'Outfit', sans-serif;
+}
+
+.square{
+    width:200px;
+    height:300px;
+    background-color:white;
+    border-radius:5%;
+
+}
+
+h3{
+    font-size:1rem;
+    position:relative;
+    left:15px;
+}
+
+p{
+    font-size:0.7rem;
+    color:grey;
+    margin:20px;
+    position:relative;
+    bottom:15px;
+    text-align:center;
+
+}
+ 
+.qr-code-img{
+    width:180px;
+    height:180px;
+    position:relative;
+    left:10px;
+    top:10px;
+    border-radius: 5%;
+}
+
+.dot-details {
+    width: 10px;
+    height: 150px;
+    border: dotted 18px;
+    color: #68bfd0;
+    position:absolute;
+    top: 220px;
+    left: -13px;
+}
+
+.circle1{
+    width:200px;
+    height:200px;
+    border: solid 10px #e0e7ed;
+    border-radius: 50%;
+    position:relative;
+    left: 1300px;
+}
+
+.zig-zag {
+    height: 50px;
+    width: 300px;
+    background: linear-gradient(135deg, #d3d3d3 35%, transparent 25%) -26px 0, linear-gradient(225deg, #d3d3d3 35%, transparent 25%) -25px 0, linear-gradient(315deg, #d3d3d3 35%, transparent 25%) 0 0, linear-gradient(45deg, #d3d3d3 35%, transparent 25%) -1px 0;
+    background-size: 50px 60px;
+    background-color: rgba(255, 0, 0, 0.3);
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
